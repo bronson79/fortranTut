@@ -9,9 +9,9 @@ INTEGER :: j
 
 
 
-DO  j = 1, COLSIZE
+DO i = 1, ROWSIZE
 
- DO i = 1, ROWSIZE 
+ DO j = 1, COLSIZE 
 
   array(i, j) = j*1.7*i 
 
